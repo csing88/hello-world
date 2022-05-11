@@ -7,6 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
-      - run: echo "Successful Run"
-#         with:
-#           MY_NAME: "Mona"
+        with:
+          MY_NAME: "Mona"
