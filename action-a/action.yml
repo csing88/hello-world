@@ -8,10 +8,12 @@ author: "octocat@github.com"
 #     required: true
 #     default: "World"
 
-runs:
-  using: "docker"
-  image: "Dockerfile"
+run:
+echo "Hello World"
+# runs:
+#   using: "docker"
+#   image: "Dockerfile"
 
-branding:
-  icon: "mic"
-  color: "purple"
+# branding:
+#   icon: "mic"
+#   color: "purple"
